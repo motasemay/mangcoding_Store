@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mada:wght@200..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: calc(100% - 150px);
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active {
+    font-weight: 800;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+
+    height: 22222px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9;
+    padding: 20px 0;
+    box-shadow: 0px 1.65px 8.24px rgba(0, 0, 0, 0.10);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+header .container .logo {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-wrap: wrap;
+
+
+
+}
+
+header .container .logo a {
+    color: #545BE8;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+header .container nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+header .container nav ul li a {
+    color: #101928;
+
+}
+
+header .container .auth {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+
+}
+
+header .container .auth a {
+    padding: 9.35px 40px;
+    border-radius: 6px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+
+}
+
+header .container .auth .login {
+    border: #545BE8 0.41px solid;
+    color: #545BE8;
+}
+
+header .container .auth .register {
+    background-color: #545BE8;
+    color: white;
+}
